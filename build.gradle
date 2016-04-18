@@ -11,7 +11,7 @@ buildscript {
     }
 }
 
-version "2.0.1"
+version "1.1.9"
 group "org.grails.plugins"
 
 apply plugin: 'eclipse'
@@ -69,7 +69,7 @@ task wrapper(type: Wrapper) {
 }
 
 grailsPublish {
-    githubSlug = 'foo/bar'
+    githubSlug = 'dodysw/cache-headers'
     license {
         name = 'Apache-2.0'
     }
